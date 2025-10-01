@@ -13,3 +13,17 @@ const Reverse = (arr) => {
   return arr;
 }
 export { Reverse }
+/*You want to try in a easy way
+Here it is */
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var array_reversal = function (nums) {
+    let reversed = [];
+    for (let i = nums.length - 1; i >= 0; i--) {
+        reversed.push(nums[i]);
+    }
+    return reversed;
+};
+
